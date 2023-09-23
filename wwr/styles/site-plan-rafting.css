@@ -1,1 +1,50 @@
-@import url();
+@import url(https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&family=Inria+Serif:wght@300&family=Reggae+One&display=swap);
+:root {
+    --primary-color: #501412;
+    --secondary-color: #E3D9B2;
+    --accent1-color: #E4C369;
+    --accent2-color: #E2eefb;
+
+    --heading-font: 'Reggae One', variable;
+    --paragraph-font: 'Inria sans', sans;
+
+    --nav-background-color: #E2eefb;
+    --nav-link-color: #e3d9b2;
+    --nav-hover-link-color: #E4C369;
+    --nav-hover-background-color: #501412;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--var-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
