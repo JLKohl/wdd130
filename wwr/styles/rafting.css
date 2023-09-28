@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&family=Inria+Serif:wght@300&family=Reggae+One&display=swap);
+:root {
+    --primary-color: #501412;
+    --secondary-color: #E3D9B2;
+    --accent1-color: #E4C369;
+    --accent2-color: #E2eefb;
+
+    --heading-font: 'Reggae One', variable;
+    --paragraph-font: 'Inria sans', sans;
+
+    --nav-background-color: #E2eefb;
+    --nav-link-color: #e3d9b2;
+    --nav-hover-link-color: #E4C369;
+    --nav-hover-background-color: #501412;
+}
+ * {
+    max-width: fit-content;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    position: absolute;
+    padding: 5px;
+}
+p {
+    padding: 25px;
+    font-family: var(--paragraph-font);
+}
+.article {
+    position: absolute;
+}
+img {
+    float: right;
+}
+footer {
+    position: relative;
+}
