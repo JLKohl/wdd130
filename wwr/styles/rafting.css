@@ -59,7 +59,6 @@ h2 {
 }
 section {
     padding: 25px;
-    box-align: center;
     font-family: var(--paragraph-font); 
 }
 .paragraph{
