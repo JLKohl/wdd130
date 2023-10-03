@@ -23,6 +23,36 @@ header, main, footer {
     max-width: 1500px;
     margin: auto;
 }
+header{
+    display: grid;
+    grid-template-columns:250px 100px 100px 100px;
+    border-bottom: 1px solid #501412;
+    background-color: #E2eefb;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    margin: 0 0.25rem 0 1rem;
+    width: 150px;
+}
+header nav {
+    font-size: large var(--paragraph-font);
+}
+.navigation {
+	display: flex;
+	list-style: none;
+}
+.navigation a {
+	display: block;
+	color: #501412;
+	padding: 20px;
+	text-decoration: none;
+}
+.navigation a:hover {
+    color: #E4C369;
+    font-weight: 700;
+    text-decoration: underline;
+}
 .hero {
     position: relative;
 }
