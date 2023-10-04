@@ -6,6 +6,8 @@
 header, .grid, footer {
     max-width: 840px;
     text-align: center;
+    padding-top: 10px;
+  
 }
 nav{
     background-color: rgb(124, 41, 165);
