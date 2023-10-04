@@ -3,42 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+header, .grid, footer {
+    max-width: 840px;
+    text-align: center;
+}
 nav{
-    background-color: steelblue;
+    background-color: rgb(124, 41, 165);
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1 {
     color: steelblue;
+    border: 1px dashed slategray;
+}
+.grid {
+    display: grid;
+    align-items: center;
 }
 main img {
 
-    width: 150px;
+    width: 175px;
     height: auto;
     border: 1px solid steelblue;
-    padding: 2px;
+    padding: 1px;
     box-shadow: 0 0 30px gray;
     float: right;
     margin: 0 0 1rem 1rem;
 }
+main {
+    grid-column: 2/3;
+    margin: 1px;
+}
 ul {
-    width: 50em;
-    text-align: left; 
+    width: 25em;
+    text-align: left;
+    list-style-position: inside;
 }
 p {
-    padding: 0;
+    padding: 20px;
 }
 aside {
     width: 25em;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 aside img {
-    width: 200px;
+    width: 225px;
     height: auto;
 }
 aside h2 {
