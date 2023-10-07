@@ -22,6 +22,7 @@
 header, main, footer {
     max-width: 1500px;
     margin: auto;
+    background-color: #E2eefb;
 }
 header{
     display: grid;
@@ -68,9 +69,9 @@ header nav {
     right: 10px;
     padding: 10px;
     border: 1px solid #E4C369;
-    background-color: #E2eefb;
+    background-color: white;
     color: #501412;
-    opacity: .9;
+    opacity: .8;
 }
 .hero article img {
     width: 200px;
@@ -89,16 +90,50 @@ h2 {
 }
 section {
     padding: 25px;
-    font-family: var(--paragraph-font); 
+    font-family: var(--paragraph-font);
 }
-.paragraph{
+section h2 {
+    text-align: center;
+    padding: 5px;
+    background-color: #e3d9b2;
+}
+.paragraph{  
+    display: block;
+    padding: 100px;
     text-align: center;
     padding: 2px;
+    background-color: #e3d9b2;
+    opacity: .8 
+    
 }
-.photos {
-    text-align: center;
+.photos { 
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-gap: 20px;
+    background-color: #e3d9b2;
 }
-footer{
+img {
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    order: -1;
+}
+figcaption {
+   text-align: center;
+   order: 1;
+   padding-bottom: 5px;
+ }
+footer p {
     text-align: center;
     text-decoration: none;
+    padding-top: 20px;
+}
+.sociallinks{
+    text-align: right;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.sociallinks img{
+    width: 50px;
+    padding: 10px;
 }
