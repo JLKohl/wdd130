@@ -23,6 +23,13 @@ form {
 	background-color:  #eaf0f3;
 	
 }
+h1{
+	font-family: cursive ;
+	font-weight: normal;
+	font-size: 20px;
+	text-align: center;
+	
+}
 fieldset {
 	display: grid;
 	grid-gap: 5px;
