@@ -70,8 +70,8 @@ header nav {
     padding: 10px;
     border: 1px solid #E4C369;
     background-color: white;
-    color: #501412;
-    opacity: .8;
+    color: black;
+    opacity: .9;
 }
 .hero article img {
     width: 200px;
