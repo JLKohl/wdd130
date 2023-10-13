@@ -44,12 +44,13 @@ legend {
 }
 .container{  
 text-align: center;  
-width: auto;  
+width: auto; 
+padding-bottom: 10px; 
 }  
 button{
 	background-color: #cfa6e3;
 	text-align: center;
-	
+	padding: 2px
 }
 input, select, textarea {
 	padding: .2rem;
