@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/rafting.css">
-    <meta name="description" content="California Grizzly Water Rafting Site, information about company">
+    <meta name="description" content="California Grizzly Water Rafting Site: Contact">
     <meta name="author" content="Jennifer Kohl">
-    <title>California Grizzly White Water Rafting - About Us</title>
+    <title>California Grizzly White Water Rafting - Contact</title>
 </head>
 <body>
     <header>
@@ -21,32 +21,54 @@
         </nav>
     </header>
     <main>
-        <div class = "hero">
-                <img src="images/river-banner.jpg" alt="wide shot of river">
-                <h1>California Grizzly White Water Rafting</h1>
+        <div class="address">
             <article>
-                <img class="article_img" src="images/happy-client.jpg" alt="happy family on rafting trip.">
-                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus tempora quo aperiam veritatis modi laborum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos deserunt, reprehenderit illo ullam laboriosam eum maxime culpa, non sequi temporibus sit ut facilis at aspernatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem voluptatum laboriosam magni sit iure quibusdam explicabo atque, quisquam deleniti reprehenderit rem suscipit dolore dolores pariatur provident! Repellat provident tempore earum ipsa blanditiis aliquid deleniti, omnis magnam ad. Minima sunt provident vero eveniet optio consequatur sapiente pariatur, vitae voluptatibus libero laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nam nesciunt aliquam inventore cupiditate beatae possimus id autem eligendi nulla at placeat vero repellendus adipisci dolorum, ad odit. A esse ipsa sint illum consequatur rerum veniam quisquam facilis unde, nihil rem, vel atque reprehenderit! Possimus quam eum facilis dicta eligendi.</p>
+                <h2>Contact information:<br></h2>
+                <h3>address:</h3>
+                <p>0423 Best Water Way<br>Spomewhere, CA 24333</p>
+                <h3>phone number:</h3>
+                <p>(789)236-9875</p>
+                <h3>email:</h3>
+                <p>grizzlywater@gmail.com</p>
             </article>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36396.714818636836!2d-123.07473595208043!3d41.776656758943474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54cedfeda202daa3%3A0x469797d3a570ff33!2sKlamath%20River!5e0!3m2!1sen!2sus!4v1697316266832!5m2!1sen!2sus" width="425" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+            </div>
         </div>
-        <section class="paragraph">
-            <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quae fugit ipsam eligendi autem. Maxime perferendis necessitatibus nisi. 
-            Soluta at doloribus, consequuntur, magnam eligendi architecto omnis nulla 
-            dicta in deserunt velit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit illo nobis, dicta, magni asperiores ullam saepe, molestias tempore quaerat eligendi recusandae numquam. Hic animi eveniet modi, officiis, corporis fugit quidem voluptates dicta, exercitationem obcaecati placeat a aperiam delectus necessitatibus asperiores. Quisquam aut illo sint? Eaque, aliquid rerum? Fugiat necessitatibus dolorem quae dolore blanditiis soluta omnis vero amet excepturi non, alias culpa ipsa ipsum, illo magni! Omnis rerum porro recusandae error rem qui inventore similique iste et ad architecto provident odio, illum aut illo excepturi, perferendis officiis sequi saepe accusamus aperiam impedit expedita! Fugit eum modi exercitationem, earum nemo aliquid ducimus?</p>
-        </section>
         <section>
-            <h2>Emplyees of the Month</h2>
-            <figure class="photos">
-                <figure><img src="images/happy-emplyees-one.jpg" alt="group rafting down river"><figcaption>Group rafting down river</figcaption> </figure>
-                <figure><img src="images/rafting-two.jpg" alt="ariel shot of rafting group"><figcaption>Ariel shot of rafting group</figcaption></figure>
-                <figure><img src="images/rafting-three.jpg" alt="group rafting into large wave"><figcaption>Group rafting into large wave</figcaption></figure>
-            
+            <h2>Our Happy Employees</h2>
+            <figure class="photos employees">
+                <figure class="one"><img src="images/happy-emplyees-one.jpg" alt="group rafting down river"><figcaption>our top employees enjoying a rafting trip</figcaption> </figure>
+                <figure class="two"><img src="images/happy-emplyee-two.jpg" alt="ariel shot of rafting group"><figcaption>employees testing out canoe</figcaption></figure>
+                <figure class="three"><img src="images/happy-emplyees-three.png" alt="group rafting into large wave"><figcaption>long time employee Megan training some new recruits</figcaption></figure>
         </section>
+        <form>
+        <fieldset>
+            <legend>Contact US</legend>
+            <label for="name">full name<br></label>
+            <input type="text" id="name" name="name"/>
+            <label for="eamil"><br>email<br></label>
+            <input type="text" id="email" name="email"/>
+            <h3>reason for message</h3>
+                <input type="radio" id="general_inquiry" name="general_inquiry">
+                <label for="general_inquiry">general inquiry</label><br>
+                <input type="radio" id="reservation_question" name="reservation_question">
+                <label for="reservation_question">reservation question</label><br>
+                <input type="radio" id="website_suggestion" name="website_suggestion">
+                <label for="website_suggestion">website_suggestion<br></label>           
+                <label for="message"><br>Message:<br></label>
+            <textarea id="message" name="message"></textarea><br><br> 
+            <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to our news letter<br></label><br>
+         </fieldset>
+        </form>
+         <div class="container">
+             <button>Submit</button>
+         </div>
     </main>
     <footer>
         <p>&copy;2023 🚣‍♂️ California Grizzly White Water Rafting 🚣‍♂️ Jennifer Kohl 🚣</p>
+        <a class="frame" href="https://app.moqups.com/lx7otGNXFiiAl4dK7ZBYMS557xs9QQ3V/view/page/ad12de680">link to wire frame</a>
         <nav class="sociallinks">
             <a href="https://facebook.com"><img src="images/Circled_Facebook_svg-64.webp" alt="facebook">
         </a>
