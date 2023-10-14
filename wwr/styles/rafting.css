@@ -156,7 +156,7 @@ textarea {
   font-size: 100%;
 }
  form {
-    width: 400px;
+    width: 600px;
     padding: 20px;
     margin: 0 auto;
     border: 3px double black;
@@ -165,9 +165,8 @@ textarea {
   legend {
      padding: 2px;
      color: black;
-     font-size: 25px;
+     font-size: 20px;
      font-family: var(--heading-font);
-     text-align: center;
   } 
  fieldset {
     display: grid;
