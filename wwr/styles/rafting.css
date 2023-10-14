@@ -160,8 +160,7 @@ textarea {
     padding: 20px;
     margin: 0 auto;
     border: 3px double black;
-    background-color:  #eaf0f3;
-    
+    background-color:  #eaf0f3; 
  }
   legend {
      padding: 2px;
@@ -169,8 +168,7 @@ textarea {
      font-size: 25px;
      font-family: var(--heading-font);
      text-align: center;
-  }  
- }
+  } 
  fieldset {
     display: grid;
     grid-gap: 5px;
@@ -204,7 +202,6 @@ footer p {
    text-decoration: none;
    color: red;
    padding-left: 10px;
-   float: center;
 }
 .sociallinks{
     text-align: right;
