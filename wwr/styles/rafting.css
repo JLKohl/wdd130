@@ -85,6 +85,9 @@ header nav {
     color: white;
     font-family: var(--heading-font)
 }
+.index .hero {
+  height: 475px;
+}
 h2 {
     font-family: var(--heading-font);
 }
@@ -100,7 +103,7 @@ section h2 {
 .trips {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
   padding: 10px;
   justify-content: space-around;
 }
@@ -117,12 +120,13 @@ section h2 {
 }
  .schedule {
   grid-column: -3 /span 2;
+  grid-row: 2 / span 1;
   outline: 1px solid black;
   background-color:white;
 }
 .action{
   text-align: right;
-  
+  grid-row: 3;
 }
 .paragraph{  
     display: block;
