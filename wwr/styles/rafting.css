@@ -134,10 +134,12 @@ section h2 {
 .index .paragraph {
   grid-column: 1 /span 3;
   grid-row: 2;
+  padding: 5px;
 }
 .index .form {
   grid-column: 4;
-  grid-row: 2 / span 2;
+  grid-row: 1/ span 2;
+  padding: 10px
 }
 .index .action {
   grid-column: 2;
@@ -149,7 +151,7 @@ section h2 {
 }
 .index .action button {
   width: 200px;
-  height: 150px;
+  height: 100px;
   justify-content: center;
 }
 .trips {
