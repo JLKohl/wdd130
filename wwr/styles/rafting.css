@@ -86,7 +86,6 @@ header nav {
     font-family: var(--heading-font)
 }
 .hero .second {
-  position: center;
   top: 150px;
 }
 .hero .box {
@@ -287,7 +286,6 @@ textarea {
  .trips button {
    height: 50px;
    width: 500px;
-   position: center;
  }
  button{
     color: white;
