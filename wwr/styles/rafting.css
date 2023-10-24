@@ -85,6 +85,18 @@ header nav {
     color: white;
     font-family: var(--heading-font)
 }
+.hero .second {
+  position: center;
+  top: 150px;
+}
+.hero .box {
+  border: 1px solid #501412;
+  background: #501412;
+  padding: 20px;
+}
+.hero .pic {
+  opacity: .9;
+}
 .index .hero {
   height: 475px;
 }
@@ -100,10 +112,50 @@ section h2 {
     padding: 5px;
     background-color: #e3d9b2;
 }
+.discription{
+    text-align: center;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: top;
+}
+.index {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto 1fr;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.index .images{
+  grid-column: 1 / span 3;
+  grid-row: 1;
+  padding: 20px;
+}
+.index .paragraph {
+  grid-column: 1 /span 3;
+  grid-row: 2;
+}
+.index .form {
+  grid-column: 4;
+  grid-row: 2 / span 2;
+}
+.index .action {
+  grid-column: 2;
+  grid-row: 3;
+  text-align: center;
+}
+.index .action h3 {
+  position: relative;
+}
+.index .action button {
+  width: 200px;
+  height: 150px;
+  justify-content: center;
+}
 .trips {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr auto;
   padding: 10px;
   justify-content: space-around;
 }
@@ -120,9 +172,28 @@ section h2 {
 }
  .schedule {
   grid-column: -3 /span 2;
-  grid-row: 2 / span 1;
+  grid-row: 2;
   outline: 1px solid black;
   background-color:white;
+  
+}
+.schedule h1 {
+  text-align: center;
+}
+ th {
+  border: 1px solid black;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: left;
+  vertical-align: center; 
+}
+td{
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  vertical-align: center;
 }
 .action{
   text-align: right;
@@ -130,7 +201,7 @@ section h2 {
 }
 .paragraph{  
     display: block;
-    padding: 100px;
+    padding: 200px;
     text-align: center;
     padding: 2px;
     background-color: #e3d9b2;
@@ -193,6 +264,7 @@ textarea {
     border: 3px double black;
     background-color:  #eaf0f3; 
  }
+
   legend {
      padding: 2px;
      color: black;
@@ -211,6 +283,11 @@ textarea {
  width: auto; 
  padding-bottom: 10px; 
  }  
+ .trips button {
+   height: 50px;
+   width: 500px;
+   position: center;
+ }
  button{
     color: white;
     background-color:#501412;
